@@ -2,7 +2,7 @@ body {
   font-family: Arial;
   background: linear-gradient(45deg, #3d2f5b, #7f2d2d);
   height: 100dvh;
-  overflow: hidden;
+ /* overflow: hidden;*/
 }
 
 h1,
