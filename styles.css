@@ -1,0 +1,377 @@
+body {
+  font-family: Arial;
+  background: linear-gradient(45deg, #3d2f5b, #7f2d2d);
+  height: 100dvh;
+  overflow: hidden;
+}
+
+h1,
+h3,
+.copy {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10px;
+  position: relative;
+}
+
+.logo-pic {
+  width: 80px;
+  border-radius: 1000px;
+}
+
+.search {
+  position: absolute;
+  top: 38px;
+  right: 15px;
+}
+
+/* SEARCH BAR STYLING */
+
+.box {
+  position: fixed;
+  right: 15px;
+}
+
+.input {
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  background: none;
+  border: 2px solid #ff8927;
+  border-radius: 50px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #ff8927;
+  outline: none;
+  transition: .5s;
+}
+
+.box:hover input {
+  width: 340px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.box i {
+  position: absolute;
+  top: 50%;
+  right: 1px;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: #ff8927;
+  transition: .2s;
+}
+
+.box:hover i {
+  opacity: 0;
+  z-index: -1;
+}
+
+
+hr {
+  border: 1px solid black;
+  margin: 10px 0;
+}
+
+.container1,
+.mini-cont {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  /* Add margin between containers */
+  position: relative;
+}
+
+.container1 div {
+  display: flex;
+  flex-wrap: wrap;
+  /* Allow cards to wrap to the next line */
+  justify-content: center;
+}
+
+.card {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px 0px;
+  /* background-color: #f0f0f0; */
+  border: none;
+  margin: 5px;
+  /* Add margin around each card */
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 15px;
+}
+
+.container1 a {
+  text-decoration: none;
+  color: navy;
+}
+
+.netflix {
+  background: url(pix/netflix.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #221f1f;
+}
+
+.prime {
+  background: url(pix/prime-video2.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #221f1f;
+}
+
+.iptv {
+  background: url(pix/iptv.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #221f1f;
+}
+
+.spotify {
+  background: url(pix/spotify.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #221f1f;
+}
+
+.pubg {
+  background: url(pix/pubg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #221f1f;
+}
+
+.ludo-star {
+  background: url(pix/yalla-ludo-1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #221f1f;
+}
+
+.bigo {
+  background: url(pix/bigo-live.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #221f1f;
+}
+
+.bigo {
+  background: url(pix/bigo-live.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #221f1f;
+}
+
+.teen-patti {
+  background: url(pix/patti.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #221f1f;
+}
+
+.whatsapp-icon {
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-30%);
+}
+
+.icon-link {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  text-align: center;
+  line-height: 30px;
+  transition: background-color 0.3s;
+}
+
+.icon-link:hover {
+  background-color: #ccc;
+}
+
+.app-icon {
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+}
+
+
+/* CONTACT US SECTION styling */
+
+.mini-cont {
+  display: flex;
+  gap: 15px;
+}
+
+.mini-cont div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: ease-out 0.2s;
+}
+
+.mini-cont div:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.mini-cont h5 {
+  margin-top: 5px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.mini-cont a {
+  text-decoration: none;
+  color: orange;
+}
+
+.mini-cont .fa-brands {
+  font-size: 25px;
+  color: orange;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .card {
+    width: 150px;
+    /* Increase the width of cards for bigger screens */
+    height: 150px;
+    /* Increase the height of cards for bigger screens */
+    padding-bottom: 20px;
+    /* Adjust the padding for bigger cards */
+  }
+
+  .card {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px 0px;
+    /* background-color: #f0f0f0; */
+    border: none;
+    margin: 5px 20px;
+    /* Add margin around each card */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 15px;
+  }
+
+  .whatsapp-icon {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-30%);
+  }
+
+  .app-icon {
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+  }
+
+  .icon-link {
+    display: block;
+    width: 60px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    text-align: center;
+    line-height: 30px;
+    transition: background-color 0.3s;
+  }
+
+  .icon-link:hover {
+    background-color: #ccc;
+  }
+}
+
+
+@media screen and (max-width: 350px) {
+  .container1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    /* Add margin between containers */
+    position: relative;
+  }
+
+  .container1::before,
+  .container1::after {
+    content: "";
+    position: absolute;
+    background-color: #ccc;
+  }
+
+  .mini-cont h5 {
+    display: none;
+  }
+
+  .container1::before {
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+  }
+
+  .container1::after {
+    top: 0;
+    left: 50%;
+    width: 1px;
+    height: 100%;
+  }
+
+
+}
+
+@media screen and (max-width: 235px) {
+
+  .container1::before,
+  .container1::after {
+    content: "";
+    position: absolute;
+    background-color: #ccc;
+    display: none;
+  }
+
+  .container1::before {
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    display: none;
+  }
+
+  .container1::after {
+    top: 0;
+    left: 50%;
+    width: 1px;
+    height: 100%;
+    display: none;
+  }
+
+  .search-btn {
+    margin-bottom: 10px;
+  }
+
+}
